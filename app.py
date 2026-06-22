@@ -179,6 +179,7 @@ if page == "📊 Overview":
         fig2.update_traces(textinfo='percent+label',
                            textfont_size=12)
         fig2.update_layout(showlegend=True, font_family='Inter', font_color='#333333',
+                           legend=dict(font=dict(color='#333333')),
                            margin=dict(t=20,b=20),
                            paper_bgcolor='white')
         st.plotly_chart(fig2, use_container_width=True)
@@ -196,7 +197,8 @@ if page == "📊 Overview":
     fig3.update_layout(showlegend=False, plot_bgcolor='white',
                        paper_bgcolor='white', font_family='Inter', font_color='#333333',
                        margin=dict(t=10,b=10))
-    fig3.update_xaxes(showgrid=True, gridcolor='#f0f0f0')
+    fig3.update_xaxes(showgrid=True, gridcolor='#f0f0f0' ,tickfont=dict(color='#333333'), title_font=dict(color='#333333'))
+    fig3.update_yaxes(tickfont=dict(color='#333333'))
     st.plotly_chart(fig3, use_container_width=True)
 
     # Feature importance bar
@@ -216,7 +218,8 @@ if page == "📊 Overview":
                        paper_bgcolor='white', font_family='Inter', font_color='#333333',
                        coloraxis_showscale=False,
                        margin=dict(t=10,b=10))
-    fig4.update_xaxes(showgrid=True, gridcolor='#f0f0f0')
+    fig4.update_xaxes(showgrid=True, gridcolor='#f0f0f0' , tickfont=dict(color='#333333'), title_font=dict(color='#333333'))
+    fig4.update_yaxes(tickfont=dict(color='#333333'))
     st.plotly_chart(fig4, use_container_width=True)
 
 # ══════════════════════════════════════════════════════════════════════════════
