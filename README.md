@@ -74,9 +74,9 @@ streamlit run app.py
 ├── Customer_Flight_Activity.csv
 ├── Calendar.csv
 ├── Airline_Loyalty_Data_Dictionary.csv
-├── final_results.csv          # Scored dataset with churn probability + segments
-├── pipeline.ipynb             # Full ML pipeline — cleaning, features, model, segmentation
-├── app.py                     # Streamlit dashboard
+├── final_results.csv          
+├── EDAandModel.ipynb             
+├── app.py                    
 ├── requirements.txt
 └── README.md
 ```
