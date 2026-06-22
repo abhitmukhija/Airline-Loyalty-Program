@@ -111,7 +111,7 @@ st.markdown(f"""
     <div>✈️</div>
     <div>
         <h1>SkyReward Retention Control Tower</h1>
-        <p>Loyalty Intelligence Dashboard &nbsp;·&nbsp; {len(filtered):,} members &nbsp;·&nbsp; Churn Model AUC: 0.85 &nbsp;·&nbsp; C&A Club IIT Guwahati</p>
+        <p>Loyalty Intelligence Dashboard &nbsp;·&nbsp; {len(filtered):,} members &nbsp;·&nbsp; Churn Model AUC: 0.85 </p>
     </div>
 </div>
 """, unsafe_allow_html=True)
