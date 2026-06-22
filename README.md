@@ -1,5 +1,5 @@
 # Airline-Loyalty-Program
-# ✈️ SkyReward — Airline Loyalty Retention Intelligence
+#  SkyReward — Airline Loyalty Retention Intelligence
 
 A behavioral analytics project built for the **Consulting & Analytics Club, IIT Guwahati — Summer Projects 2026**.
 
